@@ -52,8 +52,6 @@ $( document ).ready(function() {
         }
   }
 
-    });
-
   $("div.crystals img").on("click", function() {
       
       var value = $(this).attr("data-value");//this refers to the thing that was clicked on
@@ -61,5 +59,7 @@ $( document ).ready(function() {
       console.log("Your Total Score: " + totalScore);
       update()
       WinLose();
+    });
+
     
 });
